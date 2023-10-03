@@ -5,7 +5,7 @@ import "../../styles/about.css";
 export default function About({ handlePageChange }) {
   return (
     <main>
-      <h3>About me</h3>
+      <h2>About me</h2>
       <div id="about">
         <div id="profile-icon">
           <img src={profileIcon} alt="Chandrasekar Mohan" />

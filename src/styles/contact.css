@@ -1,52 +1,48 @@
-.contact {
-  text-align: center;
+
+
+.form-box{
+  min-width: 70vw;
+  height: 60vh;
+  /*border: dotted #F55A00 5vw;*/
+  /* border: 1px solid red; */
+  margin: 0vw;
+  padding: 2vw ;
+  position:relative; 
+  /* position:relative for .prevBtn and .nextBtn position:absolute; */
 }
 
-.contact h2::before {
-  content: "";
-  width: 120px;
-  height: 1px;
-  display: inline-block;
-  background: var(--blue);
-  margin: 10px 10px;
+.form-box label{
+  display: block;
+  text-align: left;
+  color:  #1233ff;
 }
 
-.large-contact-bar {
-  display: flex;
-  justify-content: center;
+.form-box input {
+  display: block;
+  width: 100%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: .9vw 0 ;
+  border:0.5;
+  border-radius: 5px;
+  border-color:  #1233ff;
+  font-size: 20px;
 }
 
-.large-contact-bar a {
-  margin: 20px;
-  border-radius: 50%;
+.form-box textarea {
+  display: block;
+  width: 100%;
+  padding: .5rem .8rem .5rem .8rem;
+  margin: 1vw 0 ;
+  border:0.5;
+  border-radius: 5px;
+  border-color:  #1233ff;
+  font-size: 20px;
+  height: 12vh;
 }
 
-.large-contact-bar img {
-  height: 15vw;
-  width: auto;
-  max-width: 200px;
-  max-height: 200px;
+.button{
+  color:  whitesmoke;
+  background-color:#1233ff;
 }
 
-.icon-container{
-  position: relative;
 
-}
-
-.overlay {
-  position: absolute;
-}
-
-.overlay:hover {
-  opacity: 0;
-}
-
-@media screen and (max-width: 576px) {
-  .contact h2::before {
-    display: none;
-  }
-
-  .large-contact-bar {
-    display: none;
-  }
-}

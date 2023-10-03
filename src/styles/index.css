@@ -50,7 +50,7 @@ h2 {
   font-size: 3.5rem;
 }
 
-h2::after {
+/* h2::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -58,7 +58,7 @@ h2::after {
   background: var(--blue);
   margin: 10px 10px;
 }
-
+ */
 h3 {
   font-size: 2rem;
 }
