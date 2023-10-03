@@ -11,7 +11,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           // Use ternary operator to check if the current page is "About".
           // If it is, use Bootstrap's active link class.
           className={currentPage === "About" ? "nav-link active" : "nav-link"}>
-          ABOUT
+          About
         </a>
       </li>
       <li className="nav-item">
@@ -23,7 +23,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           className={
             currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }>
-          PORTFOLIO
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -33,7 +33,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           // Use ternary operator to check if the current page is "Resume".
           // If it is, use Bootstrap's active link class.
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}>
-          RESUME
+          Resume
         </a>
       </li>
       <li className="nav-item">
@@ -45,7 +45,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
           className={
             currentPage === "Contact" ? "nav-link active" : "nav-link"
           }>
-          CONTACT
+          Contact
         </a>
       </li>
     </ul>

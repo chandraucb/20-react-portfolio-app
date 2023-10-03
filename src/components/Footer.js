@@ -6,8 +6,6 @@ import linkedinLogo from "../assets/images/linkedinLogo.png";
 import linkedinLogoOrange from "../assets/images/linkedinLogoOrange.png";
 import githubLogo from "../assets/images/githubLogo.png";
 import githubLogoOrange from "../assets/images/githubLogoOrange.png";
-import phoneIcon from "../assets/images/phoneIcon.png";
-import phoneIconOrange from "../assets/images/phoneIconOrange.png";
 import emailIcon from "../assets/images/emailIcon.png";
 import emailIconOrange from "../assets/images/emailIconOrange.png";
 import resumeIcon from "../assets/images/resumeIcon.png";

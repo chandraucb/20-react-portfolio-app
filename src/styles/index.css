@@ -1,13 +1,14 @@
 /* Custom global styling */
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karla:wght@500&family=Spectral:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,300&display=swap');
 
 :root {
   font-size: 62.5%;
-  --font-main: 'Spectral', serif;
+  --font-main: 'Poppins', serif;
   --font-code: 'Inconsolata', monospace;
-  --blue: #1233ff;
+  --blue: rgb(1, 150, 237);
   --orange: #ff6d00;
-  --grey: rgb(85, 85, 85);
+  --grey: dark-blue;
 }
 
 /* Custom font styling */
@@ -19,6 +20,12 @@ body {
   font-size: 1.8rem;
   line-height: 1.7;
   padding: 5% 10%;
+  background: url(./../assets/images/background.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 main {

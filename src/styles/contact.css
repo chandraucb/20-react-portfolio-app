@@ -14,7 +14,7 @@
 .form-box label{
   display: block;
   text-align: left;
-  color:  #1233ff;
+  color:  rgb(1, 150, 237);
 }
 
 .form-box input {
@@ -24,7 +24,7 @@
   margin: .9vw 0 ;
   border:0.5;
   border-radius: 5px;
-  border-color:  #1233ff;
+  border-color:  rgb(1, 150, 237);
   font-size: 20px;
 }
 
@@ -35,14 +35,14 @@
   margin: 1vw 0 ;
   border:0.5;
   border-radius: 5px;
-  border-color:  #1233ff;
+  border-color: rgb(1, 150, 237);
   font-size: 20px;
   height: 12vh;
 }
 
 .button{
   color:  whitesmoke;
-  background-color:#1233ff;
+  background-color:rgb(1, 150, 237);
 }
 
 
