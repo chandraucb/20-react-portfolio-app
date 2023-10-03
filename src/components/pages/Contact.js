@@ -1,27 +1,53 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 import "../../styles/contact.css";
 
 export default function Contact() {
 
+  const [errorMessage, setErrorMessage] = useState("");
+
   const form = useRef();
 
   const sendEmail = (e) => {
+    
     e.preventDefault();
+    console.log(form.current)
+    console.log(e.target.elements.user_name.value)
+    console.log(e.target.elements.user_email.value)
+    console.log(e.target.elements.message.value)
+
+    if (!e.target.elements.user_name.value) {
+      setErrorMessage("Please Enter Your Name")
+      e.target.elements.user_name.focus()
+      return;
+    }
+    if (!e.target.elements.user_email.value ) {
+      setErrorMessage("Please Enter Email")
+      e.target.elements.user_email.focus()
+      return;
+    }
+    if (!e.target.elements.message.value) {
+      setErrorMessage("Please Enter A Message")
+      e.target.elements.message.focus()
+      return;
+    }
 
     emailjs.sendForm('service_bq3gwud', 'template_7hu41j6', form.current, 'ZZkfO_YABY98KUFrM')
       .then((result) => {
+          setErrorMessage("Recived your message. I will get back to you soon!")
           console.log(result.text);
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
-      });
+      }); 
   };
 
   return (
     <main>
      <h2>Contact Me</h2>
-     <form className = "form-box" ref={form} onSubmit={sendEmail}>    
+     <form className = "form-box" ref={form} onSubmit={sendEmail}>  
+        {errorMessage && <div> {errorMessage} </div>}
         <label>Name</label>
         <input type="text" name="user_name" />
         <label>Email</label>

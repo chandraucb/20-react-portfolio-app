@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import yumilicous from "../../assets/images/yumilicious.jpeg";
+import fit_squad from "../../assets/images/fit-squad.png";
 
 const projects = [
   {
@@ -15,6 +16,19 @@ const projects = [
     repoURL: "https://github.com/ccames91/MealWorms",
     demoURL: "https://ccames91.github.io/MealWorms",
     screenshot: yumilicous,
+  },
+  {
+    id: 1,
+    name: "Fit Squad",
+    type: "Group project",
+    technologies: "HTML,CSS,Javascript, Handlebars template engine,MySQL, Sequelize ORM, Node.js, dotenv, heroku, RestFUL api, express-session, connect-session-sequelize",
+    descriptionSummary:
+      "Our project will be showcasing an application that informs the user of different recipes based on their query.",
+    descriptionElaboration:
+      "Fit Squad is a health & fitness companion app aimed to keep you motivated and on schedule while navigating your busy life.",
+    repoURL: "https://github.com/carlosmb001/fit_squad",
+    demoURL: "https://fit-squad-805c3e11f44f.herokuapp.com/dashboard",
+    screenshot: fit_squad,
   },
   
 ];

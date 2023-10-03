@@ -45,4 +45,8 @@
   background-color:rgb(1, 150, 237);
 }
 
+.error {
+  display : none;
+}
+
 
