@@ -1,0 +1,52 @@
+.contact {
+  text-align: center;
+}
+
+.contact h2::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: var(--blue);
+  margin: 10px 10px;
+}
+
+.large-contact-bar {
+  display: flex;
+  justify-content: center;
+}
+
+.large-contact-bar a {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.large-contact-bar img {
+  height: 15vw;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.icon-container{
+  position: relative;
+
+}
+
+.overlay {
+  position: absolute;
+}
+
+.overlay:hover {
+  opacity: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .contact h2::before {
+    display: none;
+  }
+
+  .large-contact-bar {
+    display: none;
+  }
+}
