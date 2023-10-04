@@ -43,17 +43,38 @@ export default function Contact() {
       }); 
   };
 
+  const handleChange = (event) => {
+    event.preventDefault()
+    console.log(event.target.value)
+    console.log(event.target.name)
+    if (!event.target.value && event.target.name === 'user_name') {
+      setErrorMessage("Please Enter Your Name")
+      event.target.focus()
+      return;
+    } else if (!event.target.value && event.target.name === 'user_email') {
+      setErrorMessage("Please Enter Email")
+      event.target.focus()
+      return;
+    } else if (!event.target.value && event.target.name === 'message') {
+      setErrorMessage("Please Enter A Message")
+      event.target.focus()
+      return;
+    } else {
+      setErrorMessage("")
+    }
+  }
+
   return (
     <main>
      <h2>Contact Me</h2>
      <form className = "form-box" ref={form} onSubmit={sendEmail}>  
         {errorMessage && <div> {errorMessage} </div>}
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="user_name" onChange={handleChange} />
         <label>Email</label>
-        <input type="email" name="user_email" />
+        <input type="email" name="user_email"  onChange={handleChange}/>
         <label>Message</label>
-        <textarea name="message" />
+        <textarea name="message"  onChange={handleChange} />
         <input className="button" type="submit" value="Send" />
       </form>
     </main>
