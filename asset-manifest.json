@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.113aa1ab.css",
+    "main.js": "/static/js/main.a4a7d0d8.js",
+    "static/media/yumilicious.jpeg": "/static/media/yumilicious.430c0ba7930c877f3180.jpeg",
+    "static/media/fit-squad.png": "/static/media/fit-squad.29e7b978733cd05f1e9c.png",
+    "static/media/background.png": "/static/media/background.73de37ac18a0389bd1a7.png",
+    "static/media/resume.pdf": "/static/media/resume.036472662635db6ff12d.pdf",
+    "static/media/githubLogo.png": "/static/media/githubLogo.45a4f05690a3265cbe0a.png",
+    "static/media/emailIcon.png": "/static/media/emailIcon.e58e222c71dee9a7051a.png",
+    "static/media/resumeIcon.png": "/static/media/resumeIcon.12695a05f62556e26f94.png",
+    "static/media/emailIconOrange.png": "/static/media/emailIconOrange.f468d6978e1dc2edb6a1.png",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.6c3d02560463809992b1.png",
+    "static/media/profile.svg": "/static/media/profile.86664f9f5024f331325291583ab346dd.svg",
+    "static/media/linkedinLogoOrange.png": "/static/media/linkedinLogoOrange.c425d9e19fcc00f59fb8.png",
+    "static/media/resumeIconOrange.png": "/static/media/resumeIconOrange.55484154787ed7b9b6e2.png",
+    "static/media/githubLogoOrange.png": "/static/media/githubLogoOrange.121d4c07cc79c28f2f4c.png",
+    "index.html": "/index.html",
+    "main.113aa1ab.css.map": "/static/css/main.113aa1ab.css.map",
+    "main.a4a7d0d8.js.map": "/static/js/main.a4a7d0d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.113aa1ab.css",
+    "static/js/main.a4a7d0d8.js"
+  ]
+}
