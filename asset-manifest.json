@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/20-react-portfolio-app/static/css/main.90227108.css",
+    "main.js": "/20-react-portfolio-app/static/js/main.a0a2b0b2.js",
+    "static/media/thought_routes.gif": "/20-react-portfolio-app/static/media/thought_routes.3eebeef70a3b0e83d8b6.gif",
+    "static/media/yumilicious.jpeg": "/20-react-portfolio-app/static/media/yumilicious.430c0ba7930c877f3180.jpeg",
+    "static/media/fit-squad.png": "/20-react-portfolio-app/static/media/fit-squad.29e7b978733cd05f1e9c.png",
+    "static/media/jate.png": "/20-react-portfolio-app/static/media/jate.0c07a3964354c6a8486e.png",
+    "static/media/background.png": "/20-react-portfolio-app/static/media/background.73de37ac18a0389bd1a7.png",
+    "static/media/weather.jpg": "/20-react-portfolio-app/static/media/weather.1f0155a1d17976a92358.jpg",
+    "static/media/notestaker.png": "/20-react-portfolio-app/static/media/notestaker.509026f66517216d5933.png",
+    "static/media/resume.pdf": "/20-react-portfolio-app/static/media/resume.036472662635db6ff12d.pdf",
+    "static/media/githubLogo.png": "/20-react-portfolio-app/static/media/githubLogo.45a4f05690a3265cbe0a.png",
+    "static/media/emailIcon.png": "/20-react-portfolio-app/static/media/emailIcon.e58e222c71dee9a7051a.png",
+    "static/media/resumeIcon.png": "/20-react-portfolio-app/static/media/resumeIcon.12695a05f62556e26f94.png",
+    "static/media/emailIconOrange.png": "/20-react-portfolio-app/static/media/emailIconOrange.f468d6978e1dc2edb6a1.png",
+    "static/media/linkedinLogo.png": "/20-react-portfolio-app/static/media/linkedinLogo.6c3d02560463809992b1.png",
+    "static/media/profile.svg": "/20-react-portfolio-app/static/media/profile.86664f9f5024f331325291583ab346dd.svg",
+    "static/media/linkedinLogoOrange.png": "/20-react-portfolio-app/static/media/linkedinLogoOrange.c425d9e19fcc00f59fb8.png",
+    "static/media/resumeIconOrange.png": "/20-react-portfolio-app/static/media/resumeIconOrange.55484154787ed7b9b6e2.png",
+    "static/media/githubLogoOrange.png": "/20-react-portfolio-app/static/media/githubLogoOrange.121d4c07cc79c28f2f4c.png",
+    "index.html": "/20-react-portfolio-app/index.html",
+    "main.90227108.css.map": "/20-react-portfolio-app/static/css/main.90227108.css.map",
+    "main.a0a2b0b2.js.map": "/20-react-portfolio-app/static/js/main.a0a2b0b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90227108.css",
+    "static/js/main.a0a2b0b2.js"
+  ]
+}
