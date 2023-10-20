@@ -6,6 +6,7 @@ import socialMediaAPIScreenshot from "../../assets/images/thought_routes.gif" ;
 import weather from "../../assets/images/weather.jpg" ;
 import jate from "../../assets/images/jate.png" ;
 import notestaker from "../../assets/images/notestaker.png" ;
+import payitforward from "../../assets/images/payitforward.png" ;
 
 const projects = [
   {
@@ -86,7 +87,20 @@ const projects = [
     repoURL: "https://github.com/chandraucb/06-ServerSideAPI-WeatherApp",
     demoURL: "https://chandraucb.github.io/06-ServerSideAPI-WeatherApp/",
     screenshot: weather,
-  },    
+  },  
+  {
+    id: 6,
+    name: "Pay It Forward",
+    type: "Group project",
+    technologies: "MERN Stack, GraphQL, Material UI, Heroku, Emotion CSS",
+    descriptionSummary:
+      "Volunteer scheduling application built using MERN stack and other modern technologies.",
+    descriptionElaboration:
+      "To foster compassion, connect volunteers with service projects and build meaningful relationships to create a better society.",
+    repoURL: "https://github.com/chandraucb/payitforward",
+    demoURL: "https://payitforward-app-46493cd9589e.herokuapp.com",
+    screenshot: payitforward,
+  },   
 ];
 
 export default function Portfolio() {
